@@ -17,9 +17,9 @@ exports.config = {
 
     SELENIUM_PROMISE_MANAGER: false,
     
-    //directConnect: true,
+    directConnect: true,
 
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+    //seleniumAddress: 'http://localhost:4444/wd/hub',
 
     baseUrl: 'https://delta-kube-qe-demo.tractionguest.xyz/#/Login',
 
