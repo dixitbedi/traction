@@ -38,7 +38,7 @@ exports.config = {
         {
             'browserName': 'chrome',
             'chromeOptions': {
-                'args': ['--disable-extensions','disable-infobars']
+                'args': ['--disable-extensions','disable-infobars','--disable-dev-shm-usage']
             }
         },
         // {
