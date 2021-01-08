@@ -17,7 +17,7 @@ exports.config = {
 
     SELENIUM_PROMISE_MANAGER: false,
     
-    directConnect: true,
+    //directConnect: true,
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
