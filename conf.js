@@ -17,7 +17,7 @@ exports.config = {
 
     SELENIUM_PROMISE_MANAGER: false,
     
-    directConnect: true,
+    //directConnect: true,
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
@@ -41,12 +41,12 @@ exports.config = {
                 'args': ['--disable-extensions','disable-infobars']
             }
         },
-        {
-            'browserName': 'firefox',
-            'moz:firefoxOptions': {
-                'args': ['--safe-mode']
-            }
-        }
+        // {
+        //     'browserName': 'firefox',
+        //     'moz:firefoxOptions': {
+        //         'args': ['--safe-mode']
+        //     }
+        // }
     ],
 
     suites: {
