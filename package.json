@@ -5,7 +5,7 @@
   "main": "yes",
   "scripts": {
     "webdriver-start": "webdriver-manager update  && webdriver-manager start",
-    "protractor": "wait-on http-get://172.19.0.2:4444/wd/hub && protractor conf.js",
+    "protractor": "wait-on http-get://localhost:4444/wd/hub && protractor conf.js",
     "test": "npm-run-all -p -r webdriver-start protractor",
     "test2": "protractor conf.js"
   },
