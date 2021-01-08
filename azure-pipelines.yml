@@ -18,6 +18,5 @@ steps:
 - script: |
     npm install
     node node_modules/protractor/bin/webdriver-manager update
-    node node_modules/protractor/bin/webdriver-manager start
-    npm run test2
+    npm run protractor
   displayName: 'npm install and build'
