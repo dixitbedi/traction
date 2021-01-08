@@ -16,8 +16,10 @@ var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 exports.config = {
 
     SELENIUM_PROMISE_MANAGER: false,
+    
+    directConnect: true,
 
-    seleniumAddress: 'http://172.19.0.2:4444/wd/hub',
+    //seleniumAddress: 'http://localhost:4444/wd/hub',
 
     baseUrl: 'https://delta-kube-qe-demo.tractionguest.xyz/#/Login',
 
