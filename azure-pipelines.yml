@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    npm install -g protractor
+    npm run test2
   displayName: 'npm install and build'
